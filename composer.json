@@ -1,0 +1,20 @@
+{
+    "name": "php/wordcounter",
+    "description": "Word Counter",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oscar Guardaado",
+            "email": "guardadoalex77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src/",
+            "constants\\": "src/"
+        }
+    }
+}
